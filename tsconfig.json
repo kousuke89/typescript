@@ -12,6 +12,7 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,//関数の引数に暗黙のanyを付けない
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
     "moduleResolution": "node",

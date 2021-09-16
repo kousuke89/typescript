@@ -29,3 +29,9 @@ let Animal:'CAT' | 'DOG' | 'CHIKIN' = 'CAT';
 
 // タプル型･･･配列の型の順番を定義する.レストパラメータの使用も可能
 let aaa:[string, number, boolean, ...string[]];
+
+//any型、　unknown型、　never型
+
+//関数を呼び出し可能オブジェクト（Callable Object）として型定義する
+// １．Interface（type）の場合
+// ２．インライン（アノテーション）の場合
